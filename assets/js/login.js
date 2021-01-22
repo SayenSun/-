@@ -61,6 +61,7 @@ $(function() {
                 //console.log(res.token);
                 localStorage.setItem("token", res.token);
                 //location.href = "../../index.html";
+                alert("成功");
             },
         });
     });
