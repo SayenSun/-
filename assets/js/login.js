@@ -60,7 +60,11 @@ $(function() {
                 layer.msg("登陆成功!");
                 //console.log(res.token);
                 localStorage.setItem("token", res.token);
+<<<<<<< HEAD
                 //location.href = "../../index.html";
+=======
+                location.href = "./index.html";
+>>>>>>> index
             },
         });
     });
